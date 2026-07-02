@@ -1,0 +1,16 @@
+{
+  "name": "devops-assignment-app",
+  "version": "1.0.0",
+  "description": "Minimal Express app for DevOps AWS technical assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified - add basic tests here if time allows\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

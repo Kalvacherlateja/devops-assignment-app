@@ -13,7 +13,7 @@ let visitCount = 0;
 app.get('/', (req, res) => {
   visitCount++;
   res.json({
-    message: 'DevOps Assignment App is running',
+    message: 'DevOps Assignment App is running - CI/CD verified',
     hostname: os.hostname(),
     visits: visitCount,
     timestamp: new Date().toISOString(),
